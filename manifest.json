@@ -7,7 +7,7 @@
     {
       "js": ["inject.js"],
       "matches": [
-        "https://titulky.com/*/*"
+        "https://titulky.com/*.htm"
       ]
     }
   ],
