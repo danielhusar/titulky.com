@@ -1,7 +1,5 @@
-(function(window, document, undefined){
+(function(window, document, $, undefined){
   'use strict';
-
-  var $ = window.jQuery;
 
   function popup (url) {
     $.colorbox({
@@ -41,4 +39,4 @@
     init();
   }
 
-})(this, this.document);
+})(this, this.document, this.jQuery);
