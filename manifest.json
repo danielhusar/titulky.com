@@ -6,9 +6,8 @@
   "content_scripts": [
     {
       "js": ["inject.js"],
-      "matches": [
-        "https://titulky.com/*/*"
-      ]
+      "css": ["inject.css"],
+      "matches": ["http://www.titulky.com/*"]
     }
   ],
   "homepage_url": "https://github.com/danielhusar/titulky.com",
