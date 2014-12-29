@@ -1,14 +1,19 @@
 {
   "name": "Titulky.com",
-  "description": "Remove annoying countdown to download subtitles",
-  "version": "1.0.0",
+  "description": "",
+  "version": "0.0.0",
   "manifest_version": 2,
   "content_scripts": [
     {
       "js": ["inject.js"],
+<<<<<<< HEAD
       "css": ["inject.css"],
-      "matches": ["http://www.titulky.com/*"],
-      "all_frames": true
+      "matches": ["http://www.titulky.com/*"]
+=======
+      "matches": [
+        "https://titulky.com/*.htm"
+      ]
+>>>>>>> c700376dd4e30e1e476b4c18d3927a904b1f1dd8
     }
   ],
   "homepage_url": "https://github.com/danielhusar/titulky.com",

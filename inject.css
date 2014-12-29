@@ -1,0 +1,8 @@
+#count_down,
+#razenidiv {
+  display: none !important;
+}
+
+#downdiv {
+  display: block !important;
+}
